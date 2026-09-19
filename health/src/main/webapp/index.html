@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tech.Care - Healthcare Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+   
+    <div class="dashboard">
+
+      
+
+        <aside class="sidebar">
+
+            
+            <div class="logo">
+
+                <div class="logo-icon">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <h2>Tech.Care</h2>
+
+            </div>
+            <div class="patient-title">
+
+                <h3>Patients</h3>
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </div>
+
+
+            <div class="patient-list">
+
+                <div class="patient">
+                    <div class="patient-avatar">EW</div>
+
+                    <div class="patient-info">
+                        <strong>Emily Williams</strong>
+                        <span>Female, 18</span>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+
+                <div class="patient">
+                    <div class="patient-avatar">RJ</div>
+
+                    <div class="patient-info">
+                        <strong>Ryan Johnson</strong>
+                        <span>Male, 45</span>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+
+                <div class="patient">
+                    <div class="patient-avatar">BM</div>
+
+                    <div class="patient-info">
+                        <strong>Brandon Mitchell</strong>
+                        <span>Male, 36</span>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+
+
+                <div class="patient active">
+
+                    <div class="patient-avatar">JT</div>
+
+                    <div class="patient-info">
+                        <strong>Jessica Taylor</strong>
+                        <span>Female, 28</span>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+
+                </div>
+
+
+                <div class="patient">
+                    <div class="patient-avatar">SJ</div>
+
+                    <div class="patient-info">
+                        <strong>Samantha Johnson</strong>
+                        <span>Female, 56</span>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+
+                <div class="patient">
+                    <div class="patient-avatar">AM</div>
+
+                    <div class="patient-info">
+                        <strong>Ashley Martinez</strong>
+                        <span>Female, 54</span>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+
+                <div class="patient">
+                    <div class="patient-avatar">OB</div>
+
+                    <div class="patient-info">
+                        <strong>Olivia Brown</strong>
+                        <span>Female, 32</span>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+
+                <div class="patient">
+                    <div class="patient-avatar">TD</div>
+
+                    <div class="patient-info">
+                        <strong>Tyler Davis</strong>
+                        <span>Male, 29</span>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <main class="main-content">
+
+
+            <header class="topbar">
+
+                <nav>
+
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        Overview
+                    </a>
+
+                    <a href="#" class="selected">
+                        <i class="fa-solid fa-user-group"></i>
+                        Patients
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-regular fa-calendar"></i>
+                        Schedule
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-regular fa-message"></i>
+                        Message
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-regular fa-credit-card"></i>
+                        Transactions
+                    </a>
+
+                </nav>
+
+
+                <div class="doctor">
+
+                    <div class="doctor-avatar">
+                        JS
+                    </div>
+
+                    <div>
+                        <strong>Dr. Jose Simmons</strong>
+                        <span>General Practitioner</span>
+                    </div>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+
+                </div>
+
+            </header>
+
+
+            <div class="content">
+
+
+                <section class="medical-section">
+
+
+
+                    <div class="diagnosis-card">
+
+                        <div class="card-header">
+
+                            <h2>Diagnosis History</h2>
+
+                            <select>
+                                <option>Last 6 months</option>
+                                <option>Last 12 months</option>
+                                <option>Last year</option>
+                            </select>
+
+                        </div>
+
+
+                        <div class="blood-pressure">
+
+                            <div class="graph-title">
+
+                                <div>
+                                    <h3>Blood Pressure</h3>
+                                    <span>Last 6 months</span>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="graph">
+
+                                <div class="y-axis">
+
+                                    <span>180</span>
+                                    <span>160</span>
+                                    <span>140</span>
+                                    <span>120</span>
+                                    <span>100</span>
+                                    <span>80</span>
+                                    <span>60</span>
+
+                                </div>
+
+
+                                <div class="graph-area">
+
+                                    <div class="grid-line"></div>
+                                    <div class="grid-line"></div>
+                                    <div class="grid-line"></div>
+                                    <div class="grid-line"></div>
+                                    <div class="grid-line"></div>
+                                    <div class="grid-line"></div>
+                                    <div class="grid-line"></div>
+
+
+                                    <!-- SVG GRAPH -->
+
+                                    <svg viewBox="0 0 600 250"
+                                        preserveAspectRatio="none">
+
+                                        <polyline
+                                            points="0,100 90,110 180,60 270,120 360,85 450,70 540,95 600,80"
+                                            fill="none"
+                                            stroke="#e75c9e"
+                                            stroke-width="4" />
+
+                                        <polyline
+                                            points="0,120 90,190 180,110 270,135 360,150 450,120 540,135 600,115"
+                                            fill="none"
+                                            stroke="#7564d8"
+                                            stroke-width="4" />
+
+
+
+                                        <circle cx="0" cy="100" r="5" />
+                                        <circle cx="90" cy="110" r="5" />
+                                        <circle cx="180" cy="60" r="5" />
+                                        <circle cx="270" cy="120" r="5" />
+                                        <circle cx="360" cy="85" r="5" />
+                                        <circle cx="450" cy="70" r="5" />
+                                        <circle cx="540" cy="95" r="5" />
+
+                                    </svg>
+
+
+                                    <div class="months">
+
+                                        <span>Oct 2023</span>
+                                        <span>Nov 2023</span>
+                                        <span>Dec 2023</span>
+                                        <span>Jan 2024</span>
+                                        <span>Feb 2024</span>
+                                        <span>Mar 2024</span>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="bp-values">
+
+                                    <div class="value">
+
+                                        <span class="pink-dot"></span>
+
+                                        <div>
+                                            <small>Systolic</small>
+                                            <strong>160</strong>
+                                            <span>Higher than Average</span>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="value">
+
+                                        <span class="purple-dot"></span>
+
+                                        <div>
+                                            <small>Diastolic</small>
+                                            <strong>78</strong>
+                                            <span>Lower than Average</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="vitals">
+
+
+                        <div class="vital-card respiratory">
+
+                            <div class="vital-icon">
+                                <i class="fa-solid fa-lungs"></i>
+                            </div>
+
+                            <h4>Respiratory Rate</h4>
+
+                            <h2>20 bpm</h2>
+
+                            <p>Normal</p>
+
+                        </div>
+
+
+                        <!-- TEMPERATURE -->
+
+                        <div class="vital-card temperature">
+
+                            <div class="vital-icon">
+                                <i class="fa-solid fa-temperature-half"></i>
+                            </div>
+
+                            <h4>Temperature</h4>
+
+                            <h2>98.6°F</h2>
+
+                            <p>Normal</p>
+
+                        </div>
+
+
+                        <!-- HEART RATE -->
+
+                        <div class="vital-card heart">
+
+                            <div class="vital-icon">
+                                <i class="fa-solid fa-heart-pulse"></i>
+                            </div>
+
+                            <h4>Heart Rate</h4>
+
+                            <h2>78 bpm</h2>
+
+                            <p>Lower than Average</p>
+
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+
+                <aside class="profile-card">
+
+                    <div class="profile-image">
+
+                        <div class="large-avatar">
+                            JT
+                        </div>
+
+                    </div>
+
+
+                    <h2>Jessica Taylor</h2>
+
+
+                    <div class="profile-details">
+
+
+                        <div class="detail">
+
+                            <i class="fa-regular fa-calendar"></i>
+
+                            <div>
+                                <span>Date Of Birth</span>
+                                <strong>August 23, 1996</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <i class="fa-solid fa-venus"></i>
+
+                            <div>
+                                <span>Gender</span>
+                                <strong>Female</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <i class="fa-solid fa-phone"></i>
+
+                            <div>
+                                <span>Contact Info.</span>
+                                <strong>(415) 555-1234</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <i class="fa-solid fa-phone"></i>
+
+                            <div>
+                                <span>Emergency Contacts</span>
+                                <strong>(415) 555-5678</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <i class="fa-solid fa-shield-halved"></i>
+
+                            <div>
+                                <span>Insurance Provider</span>
+                                <strong>Sunrise Health Assurance</strong>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <button class="show-info">
+                        Show All Information
+                    </button>
+
+
+                </aside>
+
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
